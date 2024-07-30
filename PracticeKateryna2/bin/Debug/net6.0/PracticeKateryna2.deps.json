@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PracticeKateryna2/1.0.0": {
+        "runtime": {
+          "PracticeKateryna2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PracticeKateryna2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
