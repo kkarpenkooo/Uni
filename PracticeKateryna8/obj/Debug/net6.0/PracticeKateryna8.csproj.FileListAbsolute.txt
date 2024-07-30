@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\PracticeKateryna8\bin\Debug\net6.0\PracticeKateryna8.exe
+C:\Users\User\source\repos\PracticeKateryna8\bin\Debug\net6.0\PracticeKateryna8.deps.json
+C:\Users\User\source\repos\PracticeKateryna8\bin\Debug\net6.0\PracticeKateryna8.runtimeconfig.json
+C:\Users\User\source\repos\PracticeKateryna8\bin\Debug\net6.0\PracticeKateryna8.dll
+C:\Users\User\source\repos\PracticeKateryna8\bin\Debug\net6.0\PracticeKateryna8.pdb
+C:\Users\User\source\repos\PracticeKateryna8\obj\Debug\net6.0\PracticeKateryna8.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\PracticeKateryna8\obj\Debug\net6.0\PracticeKateryna8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\PracticeKateryna8\obj\Debug\net6.0\PracticeKateryna8.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\PracticeKateryna8\obj\Debug\net6.0\PracticeKateryna8.AssemblyInfo.cs
+C:\Users\User\source\repos\PracticeKateryna8\obj\Debug\net6.0\PracticeKateryna8.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PracticeKateryna8\obj\Debug\net6.0\PracticeKateryna8.dll
+C:\Users\User\source\repos\PracticeKateryna8\obj\Debug\net6.0\refint\PracticeKateryna8.dll
+C:\Users\User\source\repos\PracticeKateryna8\obj\Debug\net6.0\PracticeKateryna8.pdb
+C:\Users\User\source\repos\PracticeKateryna8\obj\Debug\net6.0\PracticeKateryna8.genruntimeconfig.cache
+C:\Users\User\source\repos\PracticeKateryna8\obj\Debug\net6.0\ref\PracticeKateryna8.dll
