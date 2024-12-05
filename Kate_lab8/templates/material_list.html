@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список Матеріалів</title>
+</head>
+<body>
+    <h1>Список Матеріалів</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Назва матеріалу</th>
+                <th>Ціна</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for material in materials %}
+            <tr>
+                <td>{{ material.material_id }}</td>
+                <td>{{ material.material_name }}</td>
+                <td>{{ material.price }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

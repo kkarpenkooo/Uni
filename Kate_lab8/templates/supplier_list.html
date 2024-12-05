@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список Постачальників</title>
+</head>
+<body>
+    <h1>Список Постачальників</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Назва компанії</th>
+                <th>Контактна особа</th>
+                <th>Телефон</th>
+                <th>Банківський рахунок</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for supplier in suppliers %}
+            <tr>
+                <td>{{ supplier.supplier_id }}</td>
+                <td>{{ supplier.company_name }}</td>
+                <td>{{ supplier.contact_person }}</td>
+                <td>{{ supplier.phone }}</td>
+                <td>{{ supplier.bank_account }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,56 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:latest
+    container_name: supply_db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: supply_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+  site1:
+    build:
+      context: ./site1
+    container_name: site1
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./site1:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DJANGO_SETTINGS_MODULE=site1.settings
+
+  site2:
+    build:
+      context: ./site2
+    container_name: site2
+    command: python manage.py runserver 0.0.0.0:8001
+    volumes:
+      - ./site2:/app
+    ports:
+      - "8001:8001"
+    depends_on:
+      - db
+    environment:
+      - DJANGO_SETTINGS_MODULE=site2.settings
+
+  site3:
+    build:
+      context: ./site3
+    container_name: site3
+    command: python manage.py runserver 0.0.0.0:8002
+    volumes:
+      - ./site3:/app
+    ports:
+      - "8002:8002"
+    depends_on:
+      - db
+    environment:
+      - DJANGO_SETTINGS_MODULE=site3.settings

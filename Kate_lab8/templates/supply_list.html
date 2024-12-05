@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список Поставок</title>
+</head>
+<body>
+    <h1>Список Поставок</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Дата поставки</th>
+                <th>Постачальник</th>
+                <th>Матеріал</th>
+                <th>Кількість</th>
+                <th>Дні доставки</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for supply in supplies %}
+            <tr>
+                <td>{{ supply.supply_id }}</td>
+                <td>{{ supply.supply_date }}</td>
+                <td>{{ supply.supplier.company_name }}</td>
+                <td>{{ supply.material.material_name }}</td>
+                <td>{{ supply.quantity }}</td>
+                <td>{{ supply.delivery_days }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
